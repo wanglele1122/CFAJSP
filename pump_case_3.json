@@ -1,0 +1,693 @@
+{
+  "machines": [
+    {
+      "id": "M1"
+    },
+    {
+      "id": "M2"
+    },
+    {
+      "id": "M3"
+    },
+    {
+      "id": "M4"
+    },
+    {
+      "id": "M5"
+    },
+    {
+      "id": "M6"
+    },
+    {
+      "id": "M7"
+    }
+  ],
+  "parts": [
+    {
+      "id": "P0",
+      "parent_id": "P3",
+      "order_id": 0,
+      "operations": [
+        {
+          "id": 0,
+          "ideal_time": 14,
+          "machine_options": [
+            "M1",
+            "M2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "parent_id": "P3",
+      "order_id": 0,
+      "operations": [
+        {
+          "id": 1,
+          "ideal_time": 35,
+          "machine_options": [
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "parent_id": "P5",
+      "order_id": 0,
+      "operations": [
+        {
+          "id": 2,
+          "ideal_time": 30,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "parent_id": "P5",
+      "order_id": 0,
+      "operations": [
+        {
+          "id": 3,
+          "ideal_time": 25,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "parent_id": "P5",
+      "order_id": 0,
+      "operations": [
+        {
+          "id": 4,
+          "ideal_time": 17,
+          "machine_options": [
+            "M1",
+            "M3"
+          ]
+        },
+        {
+          "id": 5,
+          "ideal_time": 10,
+          "machine_options": [
+            "M2"
+          ]
+        },
+        {
+          "id": 6,
+          "ideal_time": 27,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "parent_id": null,
+      "order_id": 0,
+      "operations": [
+        {
+          "id": 7,
+          "ideal_time": 57,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P6",
+      "parent_id": "P9",
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 8,
+          "ideal_time": 12,
+          "machine_options": [
+            "M1",
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7",
+      "parent_id": "P9",
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 9,
+          "ideal_time": 20,
+          "machine_options": [
+            "M3"
+          ]
+        },
+        {
+          "id": 10,
+          "ideal_time": 31,
+          "machine_options": [
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P8",
+      "parent_id": "P11",
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 11,
+          "ideal_time": 36,
+          "machine_options": [
+            "M4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "parent_id": "P12",
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 12,
+          "ideal_time": 28,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "parent_id": "P11",
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 13,
+          "ideal_time": 11,
+          "machine_options": [
+            "M1",
+            "M2",
+            "M3"
+          ]
+        },
+        {
+          "id": 14,
+          "ideal_time": 12,
+          "machine_options": [
+            "M3",
+            "M4"
+          ]
+        },
+        {
+          "id": 15,
+          "ideal_time": 27,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "parent_id": "P12",
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 16,
+          "ideal_time": 22,
+          "machine_options": [
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "parent_id": null,
+      "order_id": 1,
+      "operations": [
+        {
+          "id": 17,
+          "ideal_time": 45,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "parent_id": "P16",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 18,
+          "ideal_time": 11,
+          "machine_options": [
+            "M1",
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "parent_id": "P16",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 19,
+          "ideal_time": 37,
+          "machine_options": [
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "parent_id": "P20",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 20,
+          "ideal_time": 22,
+          "machine_options": [
+            "M4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "parent_id": "P20",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 21,
+          "ideal_time": 24,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "parent_id": "P19",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 22,
+          "ideal_time": 9,
+          "machine_options": [
+            "M1",
+            "M2"
+          ]
+        },
+        {
+          "id": 23,
+          "ideal_time": 13,
+          "machine_options": [
+            "M1",
+            "M3"
+          ]
+        },
+        {
+          "id": 24,
+          "ideal_time": 31,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "parent_id": "P19",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 25,
+          "ideal_time": 14,
+          "machine_options": [
+            "M1",
+            "M2"
+          ]
+        },
+        {
+          "id": 26,
+          "ideal_time": 41,
+          "machine_options": [
+            "M6",
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "parent_id": "P20",
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 27,
+          "ideal_time": 28,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        },
+        {
+          "id": 28,
+          "ideal_time": 23,
+          "machine_options": [
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P20",
+      "parent_id": null,
+      "order_id": 2,
+      "operations": [
+        {
+          "id": 29,
+          "ideal_time": 29,
+          "machine_options": [
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P21",
+      "parent_id": "P24",
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 30,
+          "ideal_time": 15,
+          "machine_options": [
+            "M1",
+            "M2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P22",
+      "parent_id": "P24",
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 31,
+          "ideal_time": 20,
+          "machine_options": [
+            "M3",
+            "M4"
+          ]
+        },
+        {
+          "id": 32,
+          "ideal_time": 30,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P23",
+      "parent_id": "P26",
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 33,
+          "ideal_time": 36,
+          "machine_options": [
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P24",
+      "parent_id": "P27",
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 34,
+          "ideal_time": 31,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P25",
+      "parent_id": "P26",
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 35,
+          "ideal_time": 13,
+          "machine_options": [
+            "M1",
+            "M2"
+          ]
+        },
+        {
+          "id": 36,
+          "ideal_time": 15,
+          "machine_options": [
+            "M3",
+            "M4"
+          ]
+        },
+        {
+          "id": 37,
+          "ideal_time": 39,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P26",
+      "parent_id": "P27",
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 38,
+          "ideal_time": 27,
+          "machine_options": [
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P27",
+      "parent_id": null,
+      "order_id": 3,
+      "operations": [
+        {
+          "id": 39,
+          "ideal_time": 38,
+          "machine_options": [
+            "M6",
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P28",
+      "parent_id": "P31",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 40,
+          "ideal_time": 14,
+          "machine_options": [
+            "M2"
+          ]
+        },
+        {
+          "id": 41,
+          "ideal_time": 12,
+          "machine_options": [
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P29",
+      "parent_id": "P31",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 42,
+          "ideal_time": 24,
+          "machine_options": [
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P30",
+      "parent_id": "P33",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 43,
+          "ideal_time": 32,
+          "machine_options": [
+            "M4",
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P31",
+      "parent_id": "P35",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 44,
+          "ideal_time": 26,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P32",
+      "parent_id": "P33",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 45,
+          "ideal_time": 14,
+          "machine_options": [
+            "M3"
+          ]
+        },
+        {
+          "id": 46,
+          "ideal_time": 30,
+          "machine_options": [
+            "M4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P33",
+      "parent_id": "P34",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 47,
+          "ideal_time": 26,
+          "machine_options": [
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P34",
+      "parent_id": "P35",
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 48,
+          "ideal_time": 15,
+          "machine_options": [
+            "M3"
+          ]
+        },
+        {
+          "id": 49,
+          "ideal_time": 42,
+          "machine_options": [
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P35",
+      "parent_id": null,
+      "order_id": 4,
+      "operations": [
+        {
+          "id": 50,
+          "ideal_time": 38,
+          "machine_options": [
+            "M6"
+          ]
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "target_product_id": "P5",
+      "release_time": 40,
+      "due_date": 388
+    },
+    {
+      "id": 2,
+      "target_product_id": "P12",
+      "release_time": 7,
+      "due_date": 390
+    },
+    {
+      "id": 3,
+      "target_product_id": "P20",
+      "release_time": 1,
+      "due_date": 438
+    },
+    {
+      "id": 4,
+      "target_product_id": "P27",
+      "release_time": 47,
+      "due_date": 540
+    },
+    {
+      "id": 5,
+      "target_product_id": "P35",
+      "release_time": 17,
+      "due_date": 500
+    }
+  ]
+}

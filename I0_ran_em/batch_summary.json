@@ -1,0 +1,173 @@
+{
+  "experiment_type": "compare",
+  "experiment_name": "ran_em",
+  "algorithm": "abc",
+  "variant": "full",
+  "config_file": "data/inputs/configures/repeat/abc_v0.json",
+  "instance_file": "data/inputs/instances/instance_data0.json",
+  "batch_dir": "data/outputs/reports/repeat_runs/0702_223744_C0_I0_ran_em",
+  "n_runs": 5,
+  "seed_source": "explicit_list",
+  "seed_schedule": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "buffer_init_mode": "keyness",
+  "two_stage_selector_mode": "llm",
+  "employ_mode": "naive",
+  "onlooker_mode": "risk",
+  "log_step": 5,
+  "decode_sample_step": 100,
+  "best_obj": {
+    "mean": -17.26,
+    "stdev": 0.0,
+    "min": -17.26,
+    "max": -17.26
+  },
+  "best_T": {
+    "mean": 0.0,
+    "stdev": 0.0
+  },
+  "best_C": {
+    "mean": 17.26,
+    "stdev": 0.0
+  },
+  "runtime": {
+    "mean": 623.0590391183971,
+    "stdev": 8.213055854925992
+  },
+  "full_decode_count": {
+    "mean": 494.8
+  },
+  "generated_solution_count": {
+    "mean": 573.2
+  },
+  "llm_call_count": {
+    "mean": 2506.8
+  },
+  "llm_parse_fallbacks": {
+    "mean": 0.0
+  },
+  "llm_choice_a_count": {
+    "mean": 1446.6
+  },
+  "llm_choice_b_count": {
+    "mean": 1060.2
+  },
+  "llm_choice_a_rate": {
+    "mean": 0.5770115762330309
+  },
+  "llm_choice_b_rate": {
+    "mean": 0.4229884237669691
+  },
+  "llm_verify_cases": {
+    "mean": 100.0
+  },
+  "llm_verify_hit_rate": {
+    "mean": 0.762
+  },
+  "llm_topk_overlap_ratio": {
+    "mean": 0.6176
+  },
+  "llm_pairwise_hit_rate": {
+    "mean": 0.7855495654530769
+  },
+  "scout_activation_count": {
+    "mean": 3.8
+  },
+  "scout_success_iteration_count": {
+    "mean": 1.6
+  },
+  "scout_triggered_solution_count": {
+    "mean": 13.6
+  },
+  "pathrisk_repair_count": {
+    "mean": 13.0
+  },
+  "repair_worth_check_count": {
+    "mean": 13.6
+  },
+  "repair_worth_accept_count": {
+    "mean": 13.0
+  },
+  "repair_worth_reject_count": {
+    "mean": 0.6
+  },
+  "repair_worth_accept_rate": {
+    "mean": 0.9528693528693528
+  },
+  "scout_early_accept_count": {
+    "mean": 0.6
+  },
+  "scout_tardy_promote_count": {
+    "mean": 0.6
+  },
+  "scout_tardy_promote_success_count": {
+    "mean": 0.6
+  },
+  "successful_recovery_count": {
+    "mean": 2.2
+  },
+  "recovery_rate": {
+    "mean": 0.1677056277056277
+  },
+  "scout_avg_improvement": {
+    "mean": 7.341666666666667
+  },
+  "initial_best_Z": {
+    "mean": 1.5399999999999998
+  },
+  "initial_avg_Z": {
+    "mean": 6.91
+  },
+  "initial_std_Z": {
+    "mean": 3.687723
+  },
+  "best_found_iteration": {
+    "mean": 0.8
+  },
+  "initial_KBR": {
+    "mean": 0.5
+  },
+  "KBR": {
+    "mean": 0.5
+  },
+  "pressure_index": {
+    "mean": 8.316507936507936
+  },
+  "convergence_curve": [
+    {
+      "full_decode_count": 100,
+      "current_best_Z_mean": -17.26,
+      "current_best_Z_stdev": 0.0,
+      "n_runs": 5
+    },
+    {
+      "full_decode_count": 200,
+      "current_best_Z_mean": -17.26,
+      "current_best_Z_stdev": 0.0,
+      "n_runs": 5
+    },
+    {
+      "full_decode_count": 300,
+      "current_best_Z_mean": -17.26,
+      "current_best_Z_stdev": 0.0,
+      "n_runs": 5
+    },
+    {
+      "full_decode_count": 400,
+      "current_best_Z_mean": -17.26,
+      "current_best_Z_stdev": 0.0,
+      "n_runs": 5
+    },
+    {
+      "full_decode_count": 500,
+      "current_best_Z_mean": -17.26,
+      "current_best_Z_stdev": 0.0,
+      "n_runs": 1
+    }
+  ]
+}
